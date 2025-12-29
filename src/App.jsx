@@ -167,6 +167,36 @@ const translations = {
           tech: "Node.js & Express",
           desc: "Virtual store with payments and cash control.",
         },
+        {
+          id: 3,
+          title: "Real-time Chat",
+          tech: "Node.js & WebSocket",
+          desc: "Real-time chat using WebSocket, allowing users to communicate seamlessly."
+        },
+        {
+          id: 4,
+          title: "DL Copy Panel",
+          tech: "Node.js & Express",
+          desc: "Full Stack web application that uses Artificial Intelligence to generate instant marketing copy."
+        },
+        {
+          id: 5,
+          title: "Full-Stack User Registration",
+          tech: "React, Node.js, Express, Prisma & MongoDB",
+          desc: "The goal of this application is to enable user registration, viewing, and deletion."
+        },
+        {
+          id: 6,
+          title: "My Link Hub",
+          tech: "Node.js, Express, Prisma & MongoDB",
+          desc: "Project created to manage my personal links."
+        },
+        {
+          id: 7,
+          title: "DL Cards",
+          tech: "React.js",
+          desc: "Simple project for creating profile cards with names, photos, and roles."
+        },
         
       ],
     },
