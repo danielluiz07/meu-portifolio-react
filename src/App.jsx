@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { title } from "framer-motion/client";
 
 const translations = {
   pt: {
@@ -45,6 +46,15 @@ const translations = {
           title: "Caixa do Treino de Futsal",
           tech: "Node.js & Express",
           desc: "Loja virtual com pagamentos e controle de caixa.",
+        },
+        {
+          id: 3,
+          title: "Chat tempo real",
+          tech: "Node.js & WebSocket",
+          desc: "Chat em tempo real com WebSocket, permitindo usuarios de se comunicarem/conversarem."
+        },
+        {
+          id: 4,
         },
       ],
     },
@@ -136,6 +146,7 @@ const translations = {
           tech: "Node.js & Express",
           desc: "Virtual store with payments and cash control.",
         },
+        
       ],
     },
     certs: {
