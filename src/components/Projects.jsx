@@ -1,14 +1,18 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Code2, ExternalLink, Github } from "lucide-react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Reveal from "./Reveal";
 
 // Importação das imagens
 import imgLandingPage from "../assets/landing-page.png";
 import imgCaixaTreino from "../assets/caixa-treino.png";
+import imgLoginChat from "../assets/tela-login-chat.png";
 import imgChatTempoReal from "../assets/chat-tempo-real.png";
 import imgPainelCopy1 from "../assets/copy-genius1.png";
 import imgPainelCopy2 from "../assets/copy-genius2.png";
+import imgCadastroUsuarios from "../assets/cadastro-usuarios.png";
+import imgLinkHub from "../assets/meu-link-hub.png";
+import imgDlCards from "../assets/dl-cards.png";
 
 const projectResources = {
   1: {
@@ -22,7 +26,7 @@ const projectResources = {
     preview: "https://caixa-treino-segunda.netlify.app",
   },
   3: {
-    images: [imgChatTempoReal],
+    images: [imgLoginChat, imgChatTempoReal],
     github: "https://github.com/danielluiz07/chat-tempo-real",
     preview: "",
   },
@@ -30,6 +34,21 @@ const projectResources = {
     images: [imgPainelCopy1, imgPainelCopy2],
     github: "https://github.com/danielluiz07/painel-copy-dl",
     preview: "",
+  },
+  5: {
+    images: [imgCadastroUsuarios],
+    github: "https://github.com/danielluiz07/projeto-cadastro-usuarios",
+    preview: "",
+  },
+  6:{
+    images: [imgLinkHub],
+    github: "https://github.com/danielluiz07/meu-linkhub",
+    preview: "https://meu-link-hub.vercel.app"
+  },
+  7:{
+    images: [imgDlCards],
+    github: "https://github.com/danielluiz07/DL_Cards",
+    preview: ""
   },
 };
 
@@ -47,7 +66,7 @@ function ProjectCard({ project, t }) {
     if (isHovered && images.length > 1) {
       interval = setInterval(() => {
         setCurrentImgIndex((prevIndex) => (prevIndex + 1) % images.length);
-      }, 1500); 
+      }, 2500); 
     } else {
       setCurrentImgIndex(0);
     }

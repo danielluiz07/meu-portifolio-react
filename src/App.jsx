@@ -55,6 +55,27 @@ const translations = {
         },
         {
           id: 4,
+          title: "Painel Copy do DL",
+          tech: "Node.js & Express",
+          desc:"Aplicação web Full Stack que utiliza Inteligência Artificial para gerar textos de marketing instantâneos."
+        },
+        {
+          id: 5,
+          title: "Cadastro de Usuários Full-Stack",
+          tech: "React, Node.js, Express, Prisma & MongoDB",
+          desc:"O objetivo desta aplicação é permitir o cadastro, a visualização e a exclusão de usuários."
+        },
+        {
+          id: 6,
+          title: "Meu Link Hub",
+          tech: "Node.js, Express, Prisma & MongoDB",
+          desc:"Projeto realizado para gerenciar meus Links pessoais."
+        },
+        {
+          id: 7,
+          title: "Dl Cards",
+          tech: "React.js",
+          desc:"Projeto simples apenas para criação de cards de pessoas, com seus nomes, fotos e cargos."
         },
       ],
     },
