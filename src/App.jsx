@@ -27,7 +27,7 @@ const translations = {
       desc: "Sou estudante de Informática no IFPB e desenvolvedor Full Stack em formação. Tenho foco na criação de aplicações web reais e funcionais, utilizando tecnologias modernas como React, Node.js, Express, Tailwind CSS entre outras tecnologias.Minha experiência vai além da teoria: já desenvolvi desde plataformas de gestão de links e finanças até aplicações integradas com Inteligência Artificial, como o CopyGenius. Também sou entusiasta de IoT e automação, explorando o mundo do hardware com Arduino e ESP para criar soluções inovadoras, como melhora de um protótipo de reuso de águas cinzas e a construçao de um simulador de métoo sismico de reflexão indireta.",
       stats: {
         exp: "Anos Exp.",
-        projects: "Projetos"
+        projects: "Projetos",
       },
     },
     projects: {
@@ -85,6 +85,11 @@ const translations = {
             "Desenvolvimento Orientado a Objetos utilizando a Linguagem Python",
           issuer: "Fundação Bradesco",
         },
+        {
+          id: 9,
+          title: "TypeScript do Básico ao Avançado (c/ React e Express)",
+          issuer: "Udemy, Professor: Matheus basttisti",
+        },
       ],
     },
     contact: {
@@ -111,8 +116,8 @@ const translations = {
       desc: "I am an Informatics student at IFPB and a Full Stack developer in training. My focus is on creating real, functional web applications using modern technologies like React, Node.js, Express, and Tailwind CSS, among others.My experience goes beyond theory: I have developed projects ranging from link and finance management platforms to applications integrated with Artificial Intelligence, such as CopyGenius. I am also an IoT and automation enthusiast, exploring the hardware world with Arduino and ESP to create innovative solutions, such as improving a greywater reuse prototype and building an indirect reflection seismic method simulator.",
       stats: {
         exp: "Years Exp.",
-        projects: "Projects"
-      }
+        projects: "Projects",
+      },
     },
     skills: { title: "Technologies" },
     projects: {
@@ -160,6 +165,11 @@ const translations = {
           id: 8,
           title: "Object-Oriented Development using Python",
           issuer: "Fundação Bradesco",
+        },
+        {
+          id: 9,
+          title: "TypeScript from Basic to Advanced (w/ React and Express)",
+          issuer: "Udemy, Instructor: Matheus Battisti",
         },
       ],
     },
