@@ -25,7 +25,7 @@ const translations = {
     },
     about: {
       title: "Sobre Mim",
-      desc: "Sou estudante de Informática no IFPB e desenvolvedor Full Stack em formação. Tenho foco na criação de aplicações web reais e funcionais, utilizando tecnologias modernas como React, Node.js, Express, Tailwind CSS entre outras tecnologias.Minha experiência vai além da teoria: já desenvolvi desde plataformas de gestão de links e finanças até aplicações integradas com Inteligência Artificial, como o CopyGenius. Também sou entusiasta de IoT e automação, explorando o mundo do hardware com Arduino e ESP para criar soluções inovadoras, como melhora de um protótipo de reuso de águas cinzas e a construçao de um simulador de métoo sismico de reflexão indireta.",
+      desc: "Sou estudante de Informática no IFPB e desenvolvedor Full Stack em formação. Tenho foco na criação de aplicações web reais e funcionais, utilizando tecnologias modernas como React, Node.js, Express, Tailwind CSS entre outras tecnologias.Minha experiência vai além da teoria: já desenvolvi desde plataformas de gestão de links e finanças até aplicações integradas com Inteligência Artificial, como o CopyGenius. Também sou entusiasta de IoT e automação, explorando o mundo do hardware com Arduino e ESP para criar soluções inovadoras, como melhora de um protótipo de reuso de águas cinzas e a construçao de um simulador de método sismico de reflexão indireta.",
       stats: {
         exp: "Anos Exp.",
         projects: "Projetos",
