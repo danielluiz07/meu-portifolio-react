@@ -33,7 +33,7 @@ export default function Hero({ t }) {
             </a>
           </Tooltip>
 
-          <Tooltip showArrow content="Veja meus principais contatos">
+          <Tooltip showArrow content="Veja meus contatos">
             <a
               href="#contact"
               className="px-8 py-3 border border-gray-300 dark:border-gray-700 rounded-full font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition"
