@@ -24,12 +24,15 @@ export default function Hero({ t }) {
           </span>
         </h1>
         <div className="flex justify-center gap-4 mt-8">
-          <a
-            href="#projects"
-            className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition shadow-lg hover:shadow-blue-500/25"
-          >
-            {t.hero.cta}
-          </a>
+          <Tooltip showArrow content="Veja meus principais projetos" >
+            <a
+              href="#projects"
+              className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold transition shadow-lg hover:shadow-blue-500/25"
+            >
+              {t.hero.cta}
+            </a>
+          </Tooltip>
+
           <Tooltip showArrow content="Veja meus principais contatos">
             <a
               href="#contact"
