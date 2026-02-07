@@ -1,7 +1,8 @@
-import React from 'react';
-import { User } from 'lucide-react';
-import Reveal from './Reveal';
-import fotoPerfil from '../assets/my_photo.jpeg'
+import React from "react";
+import { User } from "lucide-react";
+import Reveal from "./Reveal";
+import fotoPerfil from "../assets/my_photo.jpeg";
+import { Tooltip } from "./ui/tooltip";
 
 export default function About({ t }) {
   return (
@@ -11,7 +12,7 @@ export default function About({ t }) {
           {/* Espaço da Foto */}
           <div className="w-full md:w-1/2 aspect-square bg-gradient-to-tr from-blue-500 to-purple-600 rounded-2xl shadow-2xl rotate-3 hover:rotate-0 transition duration-500 p-1">
             <div className="w-full h-full bg-gray-300 dark:bg-gray-800 rounded-2xl flex items-center justify-center overflow-hidden">
-                <img src={fotoPerfil} alt="Minha foto de perfil" />
+              <img src={fotoPerfil} alt="Minha foto de perfil" />
             </div>
           </div>
 
@@ -23,17 +24,23 @@ export default function About({ t }) {
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
               {t.about.desc}
             </p>
-            
+
             {/* Cards de estatísticas rápidas */}
-            <div className="flex gap-4">
-              <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700">
-                <h3 className="font-bold text-xl text-blue-500">1+</h3>
-                <p className="text-sm text-gray-500">{t.about.stats.exp}</p>
-              </div>
-              <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700">
-                <h3 className="font-bold text-xl text-purple-500">7+</h3>
-                <p className="text-sm text-gray-500">{t.about.stats.projects}</p>
-              </div>
+            <div className="flex gap-4 ">
+              <Tooltip showArrow content="Mais de 1 ano de experiência">
+                <div className="cursor-pointer p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700">
+                  <h3 className="font-bold text-xl text-blue-500">1+</h3>
+                  <p className="text-sm text-gray-500">{t.about.stats.exp}</p>
+                </div>
+              </Tooltip>
+              <Tooltip showArrow content="Mais de 7 projetos desenvolvidos">
+                <div className="cursor-pointer p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700">
+                  <h3 className="font-bold text-xl text-purple-500">7+</h3>
+                  <p className="text-sm text-gray-500">
+                    {t.about.stats.projects}
+                  </p>
+                </div>
+              </Tooltip>
             </div>
           </div>
         </div>
