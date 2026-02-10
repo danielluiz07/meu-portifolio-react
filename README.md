@@ -71,3 +71,6 @@ Siga os passos para rodar o portfólio em sua máquina
 ```
 
 5. Acesse `http://localhost:5173` no seu navegador
+
+## 📬 Contato
+Se tiver alguma dúvida ou quiser bater um papo sobre tecnologia, entre em contato!
