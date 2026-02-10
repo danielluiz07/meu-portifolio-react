@@ -69,3 +69,5 @@ Siga os passos para rodar o portfólio em sua máquina
 ```bash
    npm run dev
 ```
+
+5. Acesse `http://localhost:5173` no seu navegador
