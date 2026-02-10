@@ -45,3 +45,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Como rodar o Projeto:
 Siga os passos para rodar o portfólio em sua máquina
+**Pré requisitos:** * Node.js instalado (versão 16 ou superior recomendada).
