@@ -60,7 +60,7 @@ Siga os passos para rodar o portfólio em sua máquina
 
 3. Instale as depedências:
 ```bash
-  npm run dev
+  npm install
   # ou
-  yarn run dev
+  yarn install
 ```
