@@ -35,7 +35,7 @@ export default function About({ t }) {
               </Tooltip>
               <Tooltip showArrow content="Mais de 7 projetos desenvolvidos">
                 <div className="cursor-pointer p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md border border-gray-100 dark:border-gray-700">
-                  <h3 className="font-bold text-xl text-purple-500">7+</h3>
+                  <h3 className="font-bold text-xl text-purple-500">10+</h3>
                   <p className="text-sm text-gray-500">
                     {t.about.stats.projects}
                   </p>
