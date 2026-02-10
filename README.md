@@ -43,4 +43,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## Como rodar o Projeto em sua máquina:
+## Como rodar o Projeto:
+Siga os passos para rodar o portfólio em sua máquina
