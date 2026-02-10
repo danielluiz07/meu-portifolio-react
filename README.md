@@ -14,3 +14,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **[Tailwind CSS](https://tailwindcss.com/):** Framework de utilitários para estilização responsiva e moderna.
 * **[Framer Motion](https://www.framer.com/motion/):** Biblioteca para animações fluidas e complexas (Reveal, Hover effects).
 * **[Lucide React](https://lucide.dev/):** Ícones leves e customizáveis.
+* **[Chakra UI](https://chakra-ui.com/):** Sistema de componentes React.js prontos.
