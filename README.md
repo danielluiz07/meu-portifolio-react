@@ -57,3 +57,10 @@ Siga os passos para rodar o portfólio em sua máquina
 ```bash
   cd nome-da-pasta
 ```
+
+3. Instale as depedências:
+```bash
+  npm run dev
+  # ou
+  yarn run dev
+```
