@@ -27,3 +27,15 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Carrossel de Skills:** Visualização de minhas habilidades em formato de carrossel infinito.
 * **Seção de Projetos:** Seção onde os projetos ficam organizado por nome, stack, imagem e pequena descrição, além de botões que levam para seus respectivos repositórios no Github e link de seus sites.
 * **Seção de Certificados:** Exibição dinâmica de cursos e certificações.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+src/
+├── assets/          # Imagens e recursos estáticos
+├── components/      # Componentes reutilizáveis (Navbar, Hero, Projects, etc.)
+├── App.jsx          # Componente principal e configuração de Rotas/Estado
+├── index.css        # Estilos globais e configuração do Tailwind
+└── main.jsx         # Ponto de entrada da aplicação
