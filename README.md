@@ -15,3 +15,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **[Framer Motion](https://www.framer.com/motion/):** Biblioteca para animações fluidas e complexas (Reveal, Hover effects).
 * **[Lucide React](https://lucide.dev/):** Ícones leves e customizáveis.
 * **[Chakra UI](https://chakra-ui.com/):** Sistema de componentes React.js prontos.
+
+---
+
+## Funcionalidades
+
+* **Internacionalização (i18n):** Suporte completo para **Português (PT)** e **Inglês (EN)** com troca instantânea de idioma.
+* **Dark & Light Mode:** Alternância de tema baseada na preferência do usuário ou sistema.
+* **Design Responsivo:** Layout adaptável para Mobile, Tablet e Desktop.
