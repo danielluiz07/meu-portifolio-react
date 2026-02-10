@@ -5,9 +5,12 @@ export default function Navbar({ t, lang, toggleLang, darkMode, toggleTheme }) {
   return (
     <nav className="fixed w-full z-50 bg-white/80 dark:bg-dark/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
-        <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-          DL Portifolio
-        </span>
+        <a href="#home" className="hover:text-blue-500 transition ">
+          <span className="text-xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+            DL Portifolio
+          </span>
+        </a>
+        
 
         <div className="hidden md:flex gap-6 text-sm font-medium">
           <a href="#home" className="hover:text-blue-500 transition">{t.nav.home}</a>
