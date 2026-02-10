@@ -77,6 +77,12 @@ const translations = {
           tech: "React.js",
           desc:"Projeto simples apenas para criação de cards de pessoas, com seus nomes, fotos e cargos."
         },
+        {
+          id: 8,
+          title: "Dl Feedbacks",
+          tech: "Next.js, SQLite, Prisma, Taliwind, Zod & Toastify",
+          desc:"Um sistema de guestbook (registro digital para pessoas deixarem seus feedbacks) moderno e minimalista para coleta de feedbacks."
+        },
       ],
     },
     certs: {
@@ -196,6 +202,12 @@ const translations = {
           title: "DL Cards",
           tech: "React.js",
           desc: "Simple project for creating profile cards with names, photos, and roles."
+        },
+        {
+          id: 8,
+          title: "Dl Feedbacks",
+          tech: "Next.js, SQLite, Prisma, Taliwind, Zod & Toastify",
+          desc:"A modern and minimalist guestbook system (a digital registry for people to leave their feedback) for collecting feedback."
         },
         
       ],
