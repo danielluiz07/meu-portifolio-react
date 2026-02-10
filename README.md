@@ -39,6 +39,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
   ├── App.jsx          # Componente principal e configuração de Rotas/Estado
   ├── index.css        # Estilos globais e configuração do Tailwind
   └── main.jsx         # Ponto de entrada da aplicação
+```
+
 ---
 
 ## Como rodar o Projeto em sua máquina:
