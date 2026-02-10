@@ -64,3 +64,8 @@ Siga os passos para rodar o portfólio em sua máquina
   # ou
   yarn install
 ```
+
+4. Rode o servidor em Desenvolvimento:
+```bash
+   npm run dev
+```
