@@ -15,6 +15,7 @@ import imgLinkHub from "../assets/meu-link-hub.png";
 import imgDlCards from "../assets/dl-cards.png";
 import imgDlFeedbacks from "../assets/dl-feedbacks.png";
 import imgDlWeather from "../assets/dl-weather.png"
+import imgDlWinOptimizer from "../assets/dl-optimizer.png"
 
 const projectResources = {
   1: {
@@ -60,6 +61,11 @@ const projectResources = {
   9:{
     images: [imgDlWeather],
     github: "https://github.com/danielluiz07/dl-weather",
+    preview: ""
+  },
+  10:{
+    images: [imgDlWinOptimizer],
+    github: "https://github.com/danielluiz07/dl-win-optimizer",
     preview: ""
   },
 };
