@@ -215,6 +215,12 @@ const translations = {
           tech: "Next.js, SQLite, Prisma, Taliwind, Zod & Toastify",
           desc:"A modern and minimalist guestbook system (a digital registry for people to leave their feedback) for collecting feedback."
         },
+        {
+          id: 9,
+          title: "Dl Weather",
+          tech: "Next.js, Typescript & Taliwind",
+          desc:"DL Weather captures data from a weather API, processes it, and displays it in an intuitive way for the user."
+        },
         
       ],
     },
