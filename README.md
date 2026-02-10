@@ -8,3 +8,7 @@ O site é totalmente bilíngue (Português/Inglês) e conta com alternância de 
 ## 🚀 Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+* **[React.js](https://reactjs.org/):** Biblioteca principal para construção da interface.
+* **[Vite](https://vitejs.dev/):** Build tool para desenvolvimento rápido e otimizado.
+* **[Tailwind CSS](https://tailwindcss.com/):** Framework de utilitários para estilização responsiva e moderna.
