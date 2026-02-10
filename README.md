@@ -23,3 +23,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Internacionalização (i18n):** Suporte completo para **Português (PT)** e **Inglês (EN)** com troca instantânea de idioma.
 * **Dark & Light Mode:** Alternância de tema baseada na preferência do usuário ou sistema.
 * **Design Responsivo:** Layout adaptável para Mobile, Tablet e Desktop.
+* **Animações:** Efeitos de "Reveal" ao rolar a página e transições suaves nos cards.
+* **Carrossel de Skills:** Visualização de minhas habilidades em formato de carrossel infinito.
