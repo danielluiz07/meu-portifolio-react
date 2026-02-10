@@ -89,6 +89,12 @@ const translations = {
           tech: "Next.js, Typescript & Taliwind",
           desc:"O DL weather captura dados de uma Api de metereologia, processa-os e exibi de maneira intuitiva para o usuário."
         },
+        {
+          id: 10,
+          title: "Dl Windows Optimizer",
+          tech: "Python & CustomTkinter",
+          desc:"O DL Windows Optimizer é uma central de otimização/atalhos para melhorar ao máximo o desempenho de sua máquina, o projeto encontra-se em sua primeira versão porém ja pode ser testado rodando localmente."
+        },
       ],
     },
     certs: {
