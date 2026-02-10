@@ -25,3 +25,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Design Responsivo:** Layout adaptável para Mobile, Tablet e Desktop.
 * **Animações:** Efeitos de "Reveal" ao rolar a página e transições suaves nos cards.
 * **Carrossel de Skills:** Visualização de minhas habilidades em formato de carrossel infinito.
+* **Seção de Projetos:** Seção onde os projetos ficam organizado por nome, stack, imagem e pequena descrição, além de botões que levam para seus respectivos repositórios no Github e link de seus sites.
