@@ -74,3 +74,5 @@ Siga os passos para rodar o portfólio em sua máquina
 
 ## 📬 Contato
 Se tiver alguma dúvida ou quiser bater um papo sobre tecnologia, entre em contato!
+
+* **[Linkedin](https://www.linkedin.com/in/daniel-luiz1607/)
