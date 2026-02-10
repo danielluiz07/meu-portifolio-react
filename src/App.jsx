@@ -45,7 +45,7 @@ const translations = {
           id: 2,
           title: "Caixa do Treino de Futsal",
           tech: "Node.js & Express",
-          desc: "Loja virtual com pagamentos e controle de caixa.",
+          desc: "Projeto para manter o controle das entradas de um treino de Futsal.",
         },
         {
           id: 3,
@@ -183,7 +183,7 @@ const translations = {
           id: 2,
           title: "Futsal Training Box",
           tech: "Node.js & Express",
-          desc: "Virtual store with payments and cash control.",
+          desc: "Project to keep track of entries to a Futsal training session.",
         },
         {
           id: 3,
