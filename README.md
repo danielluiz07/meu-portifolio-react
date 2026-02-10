@@ -45,7 +45,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ## Como rodar o Projeto:
 Siga os passos para rodar o portfólio em sua máquina
-* **Pré requisitos:** Node.js instalado (versão 16 ou superior recomendada).
-
+* ### **Pré requisitos:** Node.js instalado (versão 16 ou superior recomendada).
 * ### Instalação
+  
+1. Clone o repositório:
+```bash
+  git clone [https://github.com/danielluiz07/meu-portifolio-react](https://github.com/danielluiz07/meu-repositorio-react.git) 
 
