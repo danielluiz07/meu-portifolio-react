@@ -13,6 +13,7 @@ import imgPainelCopy2 from "../assets/copy-genius2.png";
 import imgCadastroUsuarios from "../assets/cadastro-usuarios.png";
 import imgLinkHub from "../assets/meu-link-hub.png";
 import imgDlCards from "../assets/dl-cards.png";
+import imgDlFeedbacks from "../assets/dl-feedbacks.png";
 
 const projectResources = {
   1: {
@@ -48,6 +49,11 @@ const projectResources = {
   7:{
     images: [imgDlCards],
     github: "https://github.com/danielluiz07/DL_Cards",
+    preview: ""
+  },
+  8:{
+    images: [imgDlFeedbacks],
+    github: "https://github.com/danielluiz07/dl-feedbacks",
     preview: ""
   },
 };
