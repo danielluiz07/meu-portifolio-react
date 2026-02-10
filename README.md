@@ -12,5 +12,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **[React.js](https://reactjs.org/):** Biblioteca principal para construção da interface.
 * **[Vite](https://vitejs.dev/):** Build tool para desenvolvimento rápido e otimizado.
 * **[Tailwind CSS](https://tailwindcss.com/):** Framework de utilitários para estilização responsiva e moderna.
-* * **[Framer Motion](https://www.framer.com/motion/):** Biblioteca para animações fluidas e complexas (Reveal, Hover effects).
+* **[Framer Motion](https://www.framer.com/motion/):** Biblioteca para animações fluidas e complexas (Reveal, Hover effects).
 * **[Lucide React](https://lucide.dev/):** Ícones leves e customizáveis.
